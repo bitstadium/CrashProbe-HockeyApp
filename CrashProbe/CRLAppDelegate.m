@@ -26,6 +26,7 @@
 
 #import "CRLAppDelegate.h"
 #import "CRLMainWindowController.h"
+#import <HockeySDK/HockeySDK.h>
 
 @interface CRLAppDelegate ()
 
@@ -40,6 +41,10 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+  [[BITHockeyManager sharedHockeyManager] configureWithIdentifier:@""];
+  // Do some additional configuration if needed here
+  [[BITHockeyManager sharedHockeyManager] startManager];
+
 	self.windowController = [[CRLMainWindowController alloc] init];
 	[(self.window = self.windowController.window) makeKeyAndOrderFront:self];
 }

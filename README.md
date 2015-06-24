@@ -1,3 +1,5 @@
+This repository is a fork from [http://github.com/BitStadium/Crashprobe/](http://github.com/BitStadium/Crashprobe/) and used to collect the [CrashProbe](http://crashprobe.com/) test data for the [HockeyApp](http://hockeyapp.net/) service with the iOS and OS X SDKs.
+
 # Introduction
 
 [CrashProbe](http://crashprobe.com/) provides a set of test crashes that can be used to test crash reporting SDKs and symbolication implementations on iOS and OS X.

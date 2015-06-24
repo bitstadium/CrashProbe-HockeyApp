@@ -25,11 +25,18 @@
  */
 
 #import "CRLAppDelegate.h"
+@import HockeySDK;
 
 @implementation CRLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  [[BITHockeyManager sharedHockeyManager] configureWithIdentifier:@""];
+  // Do some additional configuration if needed here
+  [[BITHockeyManager sharedHockeyManager].crashManager setEnableMachExceptionHandler:YES];
+  [[BITHockeyManager sharedHockeyManager] startManager];
+  [[BITHockeyManager sharedHockeyManager].authenticator authenticateInstallation];
+
   return YES;
 }
 
