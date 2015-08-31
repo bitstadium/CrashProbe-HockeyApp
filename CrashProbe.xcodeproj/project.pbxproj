@@ -24,8 +24,6 @@
 		1ECAB6F21922B49D0005D14E /* 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6F11922B49D0005D14E /* 80x80.png */; };
 		1ECAB6F41922B4A30005D14E /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6F31922B4A30005D14E /* 120x120.png */; };
 		1ECE2C751B3AB3EA00EB065D /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ECE2C701B3AB3EA00EB065D /* HockeySDK.framework */; };
-		1ECE2C761B3AB3EA00EB065D /* HockeySDK.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1ECE2C721B3AB3EA00EB065D /* HockeySDK.xcconfig */; };
-		1ECE2C771B3AB3EA00EB065D /* HockeySDK.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1ECE2C721B3AB3EA00EB065D /* HockeySDK.xcconfig */; };
 		1ECE2C781B3AB3EA00EB065D /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1ECE2C731B3AB3EA00EB065D /* HockeySDKResources.bundle */; };
 		1ECE2C791B3AB3EA00EB065D /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1ECE2C731B3AB3EA00EB065D /* HockeySDKResources.bundle */; };
 		1ECE2C7C1B3AB45700EB065D /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ECE2C7B1B3AB45700EB065D /* HockeySDK.framework */; };
@@ -746,7 +744,8 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BIT;
-				LastUpgradeCheck = 0610;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Bit Stadium GmbH";
 				TargetAttributes = {
 					FAAC52EF1A03137300451D90 = {
@@ -779,7 +778,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ECE2C761B3AB3EA00EB065D /* HockeySDK.xcconfig in Resources */,
 				1ECE2C781B3AB3EA00EB065D /* HockeySDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -803,7 +801,6 @@
 				FAF5BB7B16F7A69C008BDDDF /* Default.png in Resources */,
 				1ECAB6F21922B49D0005D14E /* 80x80.png in Resources */,
 				FAF5BB7D16F7A69C008BDDDF /* Default@2x.png in Resources */,
-				1ECE2C771B3AB3EA00EB065D /* HockeySDK.xcconfig in Resources */,
 				FAF5BB7F16F7A69C008BDDDF /* Default-568h@2x.png in Resources */,
 				FAF5BB8216F7A69C008BDDDF /* MainStoryboard.storyboard in Resources */,
 				1ECAB6EC1922B1C70005D14E /* 57x57.png in Resources */,
