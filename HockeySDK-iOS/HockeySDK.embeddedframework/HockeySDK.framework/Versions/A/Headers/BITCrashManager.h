@@ -89,6 +89,7 @@ typedef struct BITCrashManagerCallbacks {
   BITCrashManagerPostCrashSignalCallback handleSignal;
 } BITCrashManagerCallbacks;
 
+
 /**
  * Crash Manager alert user input
  */
@@ -224,7 +225,7 @@ typedef NS_ENUM(NSUInteger, BITCrashManagerUserInput) {
  *  EXPERIMENTAL: Enable heuristics to detect the app not terminating cleanly
  *
  *  This allows it to get a crash report if the app got killed while being in the foreground
- *  because of now of the following reasons:
+ *  because of one of the following reasons:
  *  - The main thread was blocked for too long
  *  - The app took too long to start up
  *  - The app tried to allocate too much memory. If iOS did send a memory warning before killing the app because of this reason, `didReceiveMemoryWarningInLastSession` returns `YES`.
@@ -348,6 +349,8 @@ typedef NS_ENUM(NSUInteger, BITCrashManagerUserInput) {
  always or not and return the result when calling `handleUserInput:withUserProvidedCrashDescription`.
  
  @param alertViewHandler A block that is responsible for loading, presenting and and dismissing your custom user interface which prompts the user if he wants to send crash reports. The block is also responsible for triggering further processing of the crash reports.
+ 
+ @warning This is not available when compiled for Watch OS!
  
  @warning Block needs to call the `[BITCrashManager handleUserInput:withUserProvidedMetaData:]` method!
  
