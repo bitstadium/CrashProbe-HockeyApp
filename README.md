@@ -6,7 +6,7 @@ This repository is a fork from [http://github.com/BitStadium/Crashprobe/](http:/
 
 The project has been developed using Xcode 5.1.1 and has been tested with OS X 10.9.2 and iOS 7.1.1.
 
-# Setup
+## Setup
 
 1. Clone this repository.
 2. Open the project in Xcode.
@@ -21,10 +21,16 @@ The project has been developed using Xcode 5.1.1 and has been tested with OS X 1
 9. Symbolicate the crash report(s).
 10. Compare the symbolicated crash report(s) with the data available on the [CrashProbe](http://crashprobe.com/) website.
 
-# Disclaimer
+## Disclaimer
 
 The suite of tests was developed by [Bit Stadium GmbH](http://hockeyapp.net/) for the [HockeyApp](http://hockeyapp.net) service.
 
-# License
+## Contributing
+
+### Code of Conduct
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
+## License
 
 This project is released under the MIT license.
