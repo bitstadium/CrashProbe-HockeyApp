@@ -1,6 +1,6 @@
 This repository is a fork from [http://github.com/BitStadium/Crashprobe/](http://github.com/BitStadium/Crashprobe/) and used to collect the [CrashProbe](http://crashprobe.com/) test data for the [HockeyApp](http://hockeyapp.net/) service with the iOS and OS X SDKs.
 
-# Introduction
+## Introduction
 
 [CrashProbe](http://crashprobe.com/) provides a set of test crashes that can be used to test crash reporting SDKs and symbolication implementations on iOS and OS X.
 
@@ -30,6 +30,10 @@ The suite of tests was developed by [Bit Stadium GmbH](http://hockeyapp.net/) fo
 ### Code of Conduct
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
+### Contributor License
+
+You must sign a [Contributor License Agreement](https://cla.microsoft.com/) before submitting your pull request. To complete the Contributor License Agreement (CLA), you will need to submit a request via the [form](https://cla.microsoft.com/) and then electronically sign the CLA when you receive the email containing the link to the document. You need to sign the CLA only once to cover submission to any Microsoft OSS project. 
 
 ## License
 
