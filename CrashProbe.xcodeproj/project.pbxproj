@@ -10,6 +10,8 @@
 		051F1A0B189C3AE100E432A7 /* CRLCrashOverwriteLinkRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = 051F1A09189C3AE100E432A7 /* CRLCrashOverwriteLinkRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0594493F18A1441600CD93A8 /* CRLCrashStackGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 0594493D18A1441600CD93A8 /* CRLCrashStackGuard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0594494018A1441600CD93A8 /* CRLCrashStackGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0594493E18A1441600CD93A8 /* CRLCrashStackGuard.m */; };
+		1E029FE01E034FE90055710B /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E029FDE1E034FE90055710B /* HockeySDK.framework */; };
+		1E029FE11E034FE90055710B /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1E029FDF1E034FE90055710B /* HockeySDKResources.bundle */; };
 		1E12D703191FBED600C74365 /* CRLCrashAsyncSafeThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E12D701191FBED600C74365 /* CRLCrashAsyncSafeThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1E12D704191FBED600C74365 /* CRLCrashAsyncSafeThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E12D702191FBED600C74365 /* CRLCrashAsyncSafeThread.m */; };
 		1E773298189B183B00EB3F5A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E773297189B183B00EB3F5A /* SystemConfiguration.framework */; };
@@ -23,9 +25,6 @@
 		1ECAB6F01922B1C70005D14E /* 144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6EA1922B1C70005D14E /* 144x144.png */; };
 		1ECAB6F21922B49D0005D14E /* 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6F11922B49D0005D14E /* 80x80.png */; };
 		1ECAB6F41922B4A30005D14E /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ECAB6F31922B4A30005D14E /* 120x120.png */; };
-		1ECE2C751B3AB3EA00EB065D /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ECE2C701B3AB3EA00EB065D /* HockeySDK.framework */; };
-		1ECE2C781B3AB3EA00EB065D /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1ECE2C731B3AB3EA00EB065D /* HockeySDKResources.bundle */; };
-		1ECE2C791B3AB3EA00EB065D /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1ECE2C731B3AB3EA00EB065D /* HockeySDKResources.bundle */; };
 		1ECE2C7C1B3AB45700EB065D /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ECE2C7B1B3AB45700EB065D /* HockeySDK.framework */; };
 		1ECE2C7D1B3AB46000EB065D /* HockeySDK.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1ECE2C7B1B3AB45700EB065D /* HockeySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FA43921A170F134600801CAB /* CRLFakeCXXClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = FA439219170F134600801CAB /* CRLFakeCXXClass.mm */; };
@@ -205,6 +204,8 @@
 		05BB1F0A18A1AAAF00914852 /* CRLFramelessDWARF_arm64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = CRLFramelessDWARF_arm64.s; path = CrashProbe/CRLFramelessDWARF_arm64.s; sourceTree = SOURCE_ROOT; };
 		05BB1F1118A1AB7400914852 /* CRLFramelessDWARF_i386.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = CRLFramelessDWARF_i386.s; path = CrashProbe/CRLFramelessDWARF_i386.s; sourceTree = SOURCE_ROOT; };
 		05BB1F1418A1AB8500914852 /* CRLFramelessDWARF_x86_64.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = CRLFramelessDWARF_x86_64.s; path = ../CrashProbe/CRLFramelessDWARF_x86_64.s; sourceTree = "<group>"; };
+		1E029FDE1E034FE90055710B /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
+		1E029FDF1E034FE90055710B /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
 		1E12D701191FBED600C74365 /* CRLCrashAsyncSafeThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRLCrashAsyncSafeThread.h; path = CrashProbe/CRLCrashAsyncSafeThread.h; sourceTree = SOURCE_ROOT; };
 		1E12D702191FBED600C74365 /* CRLCrashAsyncSafeThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRLCrashAsyncSafeThread.m; path = CrashProbe/CRLCrashAsyncSafeThread.m; sourceTree = SOURCE_ROOT; };
 		1E1789DF189B15CF00CE4C53 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -226,9 +227,6 @@
 		1ECAB6EA1922B1C70005D14E /* 144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 144x144.png; sourceTree = "<group>"; };
 		1ECAB6F11922B49D0005D14E /* 80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80x80.png; sourceTree = "<group>"; };
 		1ECAB6F31922B4A30005D14E /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
-		1ECE2C701B3AB3EA00EB065D /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
-		1ECE2C721B3AB3EA00EB065D /* HockeySDK.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = HockeySDK.xcconfig; sourceTree = "<group>"; };
-		1ECE2C731B3AB3EA00EB065D /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
 		1ECE2C7B1B3AB45700EB065D /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = "HockeySDK-Mac/HockeySDK.framework"; sourceTree = SOURCE_ROOT; };
 		FA4391E4170F113B00801CAB /* CrashLib-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrashLib-iOS-Info.plist"; sourceTree = "<group>"; };
 		FA4391E6170F113B00801CAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -342,7 +340,7 @@
 				FAE024071A0322C3006CC3EE /* CrashLibiOS.framework in Frameworks */,
 				1E77329B189B184800EB3F5A /* Foundation.framework in Frameworks */,
 				1E77329A189B184200EB3F5A /* UIKit.framework in Frameworks */,
-				1ECE2C751B3AB3EA00EB065D /* HockeySDK.framework in Frameworks */,
+				1E029FE01E034FE90055710B /* HockeySDK.framework in Frameworks */,
 				1E773298189B183B00EB3F5A /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +358,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E029FDD1E034FE90055710B /* HockeySDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				1E029FDE1E034FE90055710B /* HockeySDK.framework */,
+				1E029FDF1E034FE90055710B /* HockeySDKResources.bundle */,
+			);
+			name = HockeySDK.embeddedframework;
+			path = "HockeySDK-iOS/HockeySDK.embeddedframework";
+			sourceTree = SOURCE_ROOT;
+		};
 		1E1789E6189B15CF00CE4C53 /* CrashLib iOS Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -377,25 +385,6 @@
 				1E1789E9189B15CF00CE4C53 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1ECE2C6F1B3AB3EA00EB065D /* HockeySDK.embeddedframework */ = {
-			isa = PBXGroup;
-			children = (
-				1ECE2C701B3AB3EA00EB065D /* HockeySDK.framework */,
-				1ECE2C711B3AB3EA00EB065D /* Resources */,
-			);
-			name = HockeySDK.embeddedframework;
-			path = "HockeySDK-iOS/HockeySDK.embeddedframework";
-			sourceTree = SOURCE_ROOT;
-		};
-		1ECE2C711B3AB3EA00EB065D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1ECE2C721B3AB3EA00EB065D /* HockeySDK.xcconfig */,
-				1ECE2C731B3AB3EA00EB065D /* HockeySDKResources.bundle */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		FA4391E3170F113B00801CAB /* iOS Supporting Files */ = {
@@ -482,7 +471,7 @@
 		FAF5BB6E16F7A69C008BDDDF /* CrashProbe iOS */ = {
 			isa = PBXGroup;
 			children = (
-				1ECE2C6F1B3AB3EA00EB065D /* HockeySDK.embeddedframework */,
+				1E029FDD1E034FE90055710B /* HockeySDK.embeddedframework */,
 				FAF5BB7716F7A69C008BDDDF /* CRLAppDelegate.h */,
 				FAF5BB7816F7A69C008BDDDF /* CRLAppDelegate.m */,
 				FAF5BB8016F7A69C008BDDDF /* MainStoryboard.storyboard */,
@@ -790,7 +779,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ECE2C781B3AB3EA00EB065D /* HockeySDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -808,7 +796,6 @@
 			files = (
 				1ECAB6F01922B1C70005D14E /* 144x144.png in Resources */,
 				FAF5BB7316F7A69C008BDDDF /* InfoPlist.strings in Resources */,
-				1ECE2C791B3AB3EA00EB065D /* HockeySDKResources.bundle in Resources */,
 				1ECAB6EF1922B1C70005D14E /* 114x114.png in Resources */,
 				FAF5BB7B16F7A69C008BDDDF /* Default.png in Resources */,
 				1ECAB6F21922B49D0005D14E /* 80x80.png in Resources */,
@@ -824,6 +811,7 @@
 				FAF5BBB516FABEDF008BDDDF /* crashButton-highlighted.png in Resources */,
 				1ECAB6ED1922B1C70005D14E /* 58x58.png in Resources */,
 				FAF5BBB616FABEDF008BDDDF /* crashButton-highlighted@2x.png in Resources */,
+				1E029FE11E034FE90055710B /* HockeySDKResources.bundle in Resources */,
 				FAF5BBB716FABEDF008BDDDF /* crashButton-normal.png in Resources */,
 				FAF5BBB816FABEDF008BDDDF /* crashButton-normal@2x.png in Resources */,
 			);
