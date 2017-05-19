@@ -42,8 +42,6 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
   [[BITHockeyManager sharedHockeyManager] configureWithIdentifier:@""];
-  [[NSUserDefaults standardUserDefaults] registerDefaults:@{ @"NSApplicationCrashOnExceptions": @YES }];
-  
   // Do some additional configuration if needed here
   [[BITHockeyManager sharedHockeyManager] startManager];
 
